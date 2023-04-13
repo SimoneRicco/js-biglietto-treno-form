@@ -1,5 +1,5 @@
-const nomeCognome = document.querySelector("#name-surname");
-const nKm = document.querySelector("#name-surname");
+const nomeCognome = document.querySelector("#name-surname").value;
+const nKm = document.querySelector("#name-surname").value;
 const age = document.querySelector("#age").value;
 const priceAtKm = 0.21;
 let finalPrice;
